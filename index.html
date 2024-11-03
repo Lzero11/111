@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>幸存者指南</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+            color: white;
+        }
+
+        .background {
+            background-image: url('https://img-baofun.zhhainiao.com/fs/b41cbf77f2b45d4e64d7eb8feef9c6ae.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .menu {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7); /* 半透明黑色背景 */
+            padding: 50px;
+            border-radius: 15px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+        }
+
+        .button {
+            display: block;
+            margin: 15px auto;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            color: white;
+            background-color: green;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .button:hover {
+            background-color: darkgreen;
+            transform: scale(1.05);
+        }
+
+        .settings {
+            background-color: blue;
+        }
+
+        .settings:hover {
+            background-color: darkblue;
+        }
+
+        .exit {
+            background-color: red;
+        }
+
+        .exit:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="menu">
+            <h1>幸存者指南</h1>
+            <button class="button start">开始</button>
+            <button class="button settings">设置</button>
+            <button class="button exit">退出</button>
+        </div>
+    </div>
+</body>
+</html>
+
+
